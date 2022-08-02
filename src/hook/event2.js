@@ -29,4 +29,3 @@ const [num2, setnum2] = React.useState(0);
  )
  }
 
-export default Event2

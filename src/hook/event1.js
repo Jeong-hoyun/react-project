@@ -5,13 +5,10 @@ import React from 'react';
 const arr = Array.from(Array(100), (_, i) => i+1);
 //arr.filter((e)=>e%10) 와 a%10===0?
 
-
 function Event1(){ 
-
   return ( 
     <div> 
-    {arr.map((a) => (
-        
+    {arr.map((a) => (        
         a%10===0?
         ""
         :
